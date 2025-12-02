@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+textblob
+sentence-transformers
+scikit-learn
+xgboost
+tqdm
