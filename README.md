@@ -2,7 +2,9 @@
 This repository uses NLP applications to implements a Movie Recommendation System from the Kaggle Movies Dataset.
 Our goal is to use vector embeddings to compare the similarity between queries and movies to recommand the most right movies to users.
 
-# Repository Layout
+## Repository Layout
+
+```
 project/
 │
 ├── README.md                  
@@ -20,22 +22,28 @@ project/
 │   ├── movie_chatbot.py
 │   ├── retrieval_demo.py
 │   └── retrieval.ipynb
+```
+---
 
-# Typical Workflow
-Create environment python -m venv venv
-source venv/bin/activate
-venv\Scripts\activate (Windows)
+## Typical Workflow
 
-Install dependencies
-pip install -r requirements.txt
+1. Create environment 
+   python -m venv venv  
+   source venv/bin/activate  
+   venv\Scripts\activate (Windows)
 
-Run py files in order:
-retrieval_demo → movie_chatbot.
+2. Install dependencies  
+   pip install -r requirements.txt
 
-Run notebook file:
-retrieval.ipynb
+3. Run py files in order: 
+   retrieval_demo → movie_chatbot.
+   
+5. Run notebook file:
+    retrieval.ipynb
+   
+6. Ensure working directory is project root for correct relative paths.
 
-Ensure working directory is project root for correct relative paths.
+---
 
-# Notes
-Kaggle raw data is large; keep out of version control.
+## Notes
+- Kaggle raw data is large; keep out of version control.
