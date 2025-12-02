@@ -36,7 +36,8 @@ project/
    pip install -r requirements.txt
 
 3. Download dataset from kaggle
-
+   https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=ratings_small.csv
+   
 4. Run py files in order: 
    retrieval_demo → movie_chatbot.
    
