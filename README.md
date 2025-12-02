@@ -35,7 +35,9 @@ project/
 2. Install dependencies  
    pip install -r requirements.txt
 
-3. Run py files in order: 
+3. Download dataset from kaggle
+
+4. Run py files in order: 
    retrieval_demo → movie_chatbot.
    
 5. Run notebook file:
